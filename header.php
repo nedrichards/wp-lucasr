@@ -19,6 +19,7 @@
 
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+    <link rel="alternate" type="application/atom+xml" href="<?php bloginfo('atom_url') ?>" title="<?php bloginfo( 'name' ); ?>" id="auto-discovery">
     <?php wp_head(); ?>
 
   </head>
